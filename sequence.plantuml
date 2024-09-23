@@ -1,0 +1,5 @@
+@startuml
+Alice -> Bob: processUser(user=User)
+Bob -> Carol: notifyUser(user=User)
+Carol -> Dave: logUserActivity(user=User)
+@enduml
